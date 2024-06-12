@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites tests="7" failures="0" disabled="0" errors="0" timestamp="2024-06-03T15:39:49" time="0.195" name="AllTests">
+  <testsuite name="TestCaseName" tests="1" failures="0" disabled="0" errors="0" time="0">
+    <testcase name="TestName" status="run" time="0" classname="TestCaseName" />
+  </testsuite>
+  <testsuite name="DatabaseTest" tests="6" failures="0" disabled="0" errors="0" time="0.193">
+    <testcase name="VerifyUserTest" status="run" time="0.074" classname="DatabaseTest" />
+    <testcase name="AddAndVerifyReservation" status="run" time="0.026" classname="DatabaseTest" />
+    <testcase name="CancelReservationTest" status="run" time="0.022" classname="DatabaseTest" />
+    <testcase name="IsRoomAvailableTest" status="run" time="0.02" classname="DatabaseTest" />
+    <testcase name="AddUserTest" status="run" time="0.02" classname="DatabaseTest" />
+    <testcase name="ListUsersByRoleTest" status="run" time="0.027" classname="DatabaseTest" />
+  </testsuite>
+</testsuites>
